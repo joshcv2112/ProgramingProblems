@@ -1,3 +1,9 @@
+/*
+Author: Joshua Vaughan
+Date: 10/2/2016
+Insertion Sort example.
+*/
+
 #include <iostream>
 using namespace std;
 
