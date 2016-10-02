@@ -30,3 +30,8 @@
 
 # Java class files
 *.class
+
+# Python
+.pyc
+*.py[cod]
+*$py.class
