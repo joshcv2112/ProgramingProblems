@@ -16,7 +16,7 @@ public class ChangeReturn
     {
         double totalDue, cashGiven, changeTotal;
         double changeCents;
-        int oneDollar = 0, fiveDollar, tenDollar, twentyDollar, fiftyDollar;
+        int oneDollar = 0, fiveDollar = 0, tenDollar = 0, twentyDollar = 0, fiftyDollar = 0;
 
         System.out.print("Enter total due: ");
         totalDue = console.nextDouble();
@@ -28,9 +28,19 @@ public class ChangeReturn
 
         int changeDollars = (int) changeTotal;
 
+        int temp = 0;
         // Figure out dollar bills..
-        if (changeDollars < 5)
-            oneDollar = changeDollars;
+        if (changeDollars < 5 && changeDollars > 0)
+        {
+            oneDollar += changeDollars;
+        }
+        else if (changeDollars == 5)
+            fiveDollar++;
+        else if (changeDollars > 5 && changeDollars < 10)
+            fiveDollar++;
+            oneDollar += (changeDollars - 5);
+        // CONTINUE THIS
+        
 
         System.out.println("Change: " + oneDollar);
     }
