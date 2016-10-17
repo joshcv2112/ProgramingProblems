@@ -1,0 +1,12 @@
+class Node
+{
+  Node(int);
+  
+  int value;
+  Node *next;	
+};
+
+Node::Node(int v)
+{
+  this->value = v;
+}
