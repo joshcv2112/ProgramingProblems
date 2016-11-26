@@ -1,6 +1,6 @@
 /*
 Author: Joshua Vaughan
-Description: Lesson 2: Custom Exceptions, Advanced C++ Course
+Description: Lesson 4: Custom Exceptions, Advanced C++ Course
 Demonstrates how custom exceptions can be used using the exception class
 */
 
