@@ -1,3 +1,9 @@
+/*
+Author: Joshua Vaughan
+Description: Lesson 2: Basic Exceptions, Advanced C++ Course
+Program demonstrates how to throw and catch various basic errors.
+*/
+
 #include <iostream>
 using namespace std;
 
